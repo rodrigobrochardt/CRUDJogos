@@ -1,0 +1,16 @@
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\CRUDJogos.exe
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\CRUDJogos.deps.json
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\CRUDJogos.runtimeconfig.json
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\CRUDJogos.runtimeconfig.dev.json
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\CRUDJogos.dll
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\ref\CRUDJogos.dll
+C:\Users\Rodrigo\CRUDJogos\bin\Debug\net5.0\CRUDJogos.pdb
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.AssemblyInfo.cs
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.dll
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\ref\CRUDJogos.dll
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.pdb
+C:\Users\Rodrigo\CRUDJogos\obj\Debug\net5.0\CRUDJogos.genruntimeconfig.cache

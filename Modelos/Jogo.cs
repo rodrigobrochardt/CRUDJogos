@@ -8,26 +8,28 @@ namespace CRUDJogos.Modelos
     private string Nome { get; set; }
     private Genero Genero { get; set; }
     private string DataLançamento { get; set; }
-    private string Sinopse { get; set; }
+    private string Descricao { get; set; }
+    private bool Status{get;set;}
 
-    public Jogo(int Id, string Nome, Genero Genero, string DataLançamento, string Sinopse)
+    public Jogo(int Id, string Nome, Genero Genero, string DataLançamento, string Descricao)
     {
       this.Id = Id;
       this.Nome = Nome;
       this.Genero = Genero;
       this.DataLançamento = DataLançamento;
-      this.Sinopse = Sinopse;
+      this.Descricao = Descricao;
+      this.Status = true;
     }
 
     public override string ToString()
     {
       string resultado = $@"
-        Nome: {this.Nome}
-        Genero: {this.Genero}
-        Data de Lançamento: {this.DataLançamento}
-        Sinopse: {this.Sinopse}
+Nome: {this.Nome}
+Genero: {this.Genero}
+Data de Lançamento: {this.DataLançamento}
+Sinopse: {this.Descricao}
       ";
-      
+
       return resultado;
     }
     public string GetNome()
@@ -39,6 +41,9 @@ namespace CRUDJogos.Modelos
     {
       return this.Id;
 
+    }
+    public void Delete(){
+      this.Status = false;
     }
 
   }
