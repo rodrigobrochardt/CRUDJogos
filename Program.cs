@@ -1,4 +1,5 @@
 ﻿using System;
+using CRUDJogos.Modelos;
 
 namespace CRUDJogos
 {
