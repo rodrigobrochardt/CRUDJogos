@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using CRUDJogos.Enums;
 using CRUDJogos.Interfaces;
 using CRUDJogos.Modelos;
 
@@ -25,6 +26,16 @@ namespace CRUDJogos.Repositorios
     public Jogo GetById(int id)
     {
       return listaJogos[id];
+    }
+
+    public List<Jogo>  GetByGenre(Genero genero){
+      List<Jogo> listaGenero = new List<Jogo>();
+      foreach(Jogo jogo in listaJogos){
+        if (jogo.GetGenre() == genero){
+          listaGenero.Add(jogo);
+        }
+      }
+      return listaGenero;
     }
 
     public int NextId()
